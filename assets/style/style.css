@@ -2,3 +2,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Base CSS */
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+p{
+    color: dimgray;
+}
+
+h1 {
+    color: #363958;
+}
+
+/* Class CSS */
+
+.section {
+    max-width: 1080px;
+    width: calc(100% - 3rem);
+    margin: auto;
+}
+.navbar {
+    display: flex;
+}
+.nav__list {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav__item:not(:last-child){
+    padding-right: 40px;
+}
+.nav__link{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.w-50 {
+    width: 45%;
+    padding: 2%;
+}
+
+.intro{
+    margin-top: 50px;
+    display: flex;
+}
+.intro__data{
+    margin: auto;
+}
+.intro__title{
+    text-transform: uppercase;
+    font-size: 60px;
+    margin: 0;
+}
+.intro__name {
+    margin: 0;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #ff8367;
+}
+.intro__description {
+    margin: 30px 0;
+    padding-bottom: 30px;
+}
+.intro__img{
+    margin-left: auto;
+}
+
+.intro__button{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(90deg, #f46160, #fc7762);
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+.intro__button:hover{
+    background-image: linear-gradient(180deg, #f46160, #fc7762);
+}
+
+.about__img{
+    order: -1;
+}
+
+.about__data{
+    padding-left: 50px;
+}
+
+.about__title{
+    font-size: 30px;
+}
