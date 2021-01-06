@@ -141,11 +141,16 @@ h1 {
 .section-title--orange{
     color: #f46060;
 }
+.work {
+    background-color: aliceblue;
+    padding-top: 30px;
+}
 .work__box{
     box-shadow: 0px 1px 74px -20px rgba(87,80,87,1);
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 150px;
+    background-color: white;
 }
 
 .work__title{
